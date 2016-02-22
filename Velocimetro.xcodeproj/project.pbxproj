@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		E9B2E32E1C7BBBD50009A39F /* Velocimetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Velocimetro.app; path = "/Users/vicente/Desktop/Programs/Velocimetro/build/Debug-iphoneos/Velocimetro.app"; sourceTree = "<absolute>"; };
+		E9B2E3441C7BC20D0009A39F /* Velocimetro.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Velocimetro.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +25,7 @@
 		E9B2E3251C7BBBD40009A39F = {
 			isa = PBXGroup;
 			children = (
+				E9B2E3441C7BC20D0009A39F /* Velocimetro.playground */,
 			);
 			sourceTree = "<group>";
 		};
