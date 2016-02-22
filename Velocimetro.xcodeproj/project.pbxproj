@@ -22,6 +22,7 @@
 		E9B2E3381C7BBBD50009A39F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9B2E33B1C7BBBD50009A39F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9B2E33D1C7BBBD50009A39F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B2E3431C7BC0FE0009A39F /* Velocimetro.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Velocimetro.playground; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				E9B2E3311C7BBBD50009A39F /* AppDelegate.swift */,
+				E9B2E3431C7BC0FE0009A39F /* Velocimetro.playground */,
 				E9B2E3331C7BBBD50009A39F /* ViewController.swift */,
 				E9B2E3351C7BBBD50009A39F /* Main.storyboard */,
 				E9B2E3381C7BBBD50009A39F /* Assets.xcassets */,
