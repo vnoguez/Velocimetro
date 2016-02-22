@@ -6,23 +6,8 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		E9B2E3321C7BBBD50009A39F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B2E3311C7BBBD50009A39F /* AppDelegate.swift */; };
-		E9B2E3341C7BBBD50009A39F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B2E3331C7BBBD50009A39F /* ViewController.swift */; };
-		E9B2E3371C7BBBD50009A39F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B2E3351C7BBBD50009A39F /* Main.storyboard */; };
-		E9B2E3391C7BBBD50009A39F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9B2E3381C7BBBD50009A39F /* Assets.xcassets */; };
-		E9B2E33C1C7BBBD50009A39F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B2E33A1C7BBBD50009A39F /* LaunchScreen.storyboard */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		E9B2E32E1C7BBBD50009A39F /* Velocimetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Velocimetro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9B2E3311C7BBBD50009A39F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9B2E3331C7BBBD50009A39F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E9B2E3361C7BBBD50009A39F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E9B2E3381C7BBBD50009A39F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E9B2E33B1C7BBBD50009A39F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E9B2E33D1C7BBBD50009A39F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9B2E3431C7BC0FE0009A39F /* Velocimetro.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Velocimetro.playground; sourceTree = SOURCE_ROOT; };
+		E9B2E32E1C7BBBD50009A39F /* Velocimetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Velocimetro.app; path = "/Users/vicente/Desktop/Programs/Velocimetro/build/Debug-iphoneos/Velocimetro.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,31 +24,7 @@
 		E9B2E3251C7BBBD40009A39F = {
 			isa = PBXGroup;
 			children = (
-				E9B2E3301C7BBBD50009A39F /* Velocimetro */,
-				E9B2E32F1C7BBBD50009A39F /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		E9B2E32F1C7BBBD50009A39F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E9B2E32E1C7BBBD50009A39F /* Velocimetro.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E9B2E3301C7BBBD50009A39F /* Velocimetro */ = {
-			isa = PBXGroup;
-			children = (
-				E9B2E3311C7BBBD50009A39F /* AppDelegate.swift */,
-				E9B2E3431C7BC0FE0009A39F /* Velocimetro.playground */,
-				E9B2E3331C7BBBD50009A39F /* ViewController.swift */,
-				E9B2E3351C7BBBD50009A39F /* Main.storyboard */,
-				E9B2E3381C7BBBD50009A39F /* Assets.xcassets */,
-				E9B2E33A1C7BBBD50009A39F /* LaunchScreen.storyboard */,
-				E9B2E33D1C7BBBD50009A39F /* Info.plist */,
-			);
-			path = Velocimetro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,7 +71,7 @@
 				Base,
 			);
 			mainGroup = E9B2E3251C7BBBD40009A39F;
-			productRefGroup = E9B2E32F1C7BBBD50009A39F /* Products */;
+			productRefGroup = E9B2E3251C7BBBD40009A39F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -124,9 +85,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9B2E33C1C7BBBD50009A39F /* LaunchScreen.storyboard in Resources */,
-				E9B2E3391C7BBBD50009A39F /* Assets.xcassets in Resources */,
-				E9B2E3371C7BBBD50009A39F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,31 +95,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9B2E3341C7BBBD50009A39F /* ViewController.swift in Sources */,
-				E9B2E3321C7BBBD50009A39F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E9B2E3351C7BBBD50009A39F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E9B2E3361C7BBBD50009A39F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E9B2E33A1C7BBBD50009A39F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E9B2E33B1C7BBBD50009A39F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E9B2E33E1C7BBBD50009A39F /* Debug */ = {
